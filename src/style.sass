@@ -88,3 +88,25 @@ h1
     text-align: right
     a
         margin-left: 0.5em
+
+.current
+    position: absolute
+    top: 0px
+    left: 0px
+    height: 100%
+    background: $primary
+
+.progress
+    height: $spacer * 1.5
+    font-size: 0.9rem
+    background: $gray-400
+    box-shadow: #{$box-shadow-sm} inset
+
+$gradient: $primary
+$gradient-alt: darken($primary, 10%)
+.progress-bar
+    background: repeating-linear-gradient(45deg,
+    $gradient 0rem,
+    $gradient 1rem,
+    $gradient-alt 1rem,
+    $gradient-alt 2rem)
