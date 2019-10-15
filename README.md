@@ -1,4 +1,4 @@
-Little pile of files to build the gallery of released scenarios for the_ocalhoun's Nifty Fifty. You build this through `make`:
+Little pile of files to build the [gallery of released scenarios for the_ocalhoun's Nifty Fifty](https://nifty-fifty.rct.dagothig.com/). You build this through `make`:
 * `make html` - compiles the pug files to html using [pug-cli](https://github.com/pugjs/pug-cli)
 * `make css` - compiles the sass files to css using [node-sass](https://github.com/sass/node-sass)
 * `make clean` - cleans the public folder
