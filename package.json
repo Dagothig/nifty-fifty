@@ -1,0 +1,12 @@
+{
+  "name": "nifty-fifty",
+  "version": "1.0.0",
+  "description": "A gallery of the published scenarios of the_ocalhoun's Nifty Fifty.",
+  "main": "server.js",
+  "author": "dagothig",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "express": "^4.17.1"
+  }
+}

@@ -1,0 +1,29 @@
+extends layout.pug
+
+block content
+  .my-4.mx-2.mx-sm-0
+    .container
+      h1
+        span.text-primary Nifty Fifty
+        | &nbsp;
+        span.text-secondary scenario pack
+      p.
+        the_ocalhoun's creating a really neat scenario pack for Roller Coaster Tycoon. I've been
+        slowly playing through it, but finding the indivdual scenarios has been cumbersome.
+        So until they're complete and they're released as a complete thing, here's the list mostly
+        up to date:
+  .mx-sm-4.row-grid
+    each scenario in scenarios.slice().reverse()
+      .card.bg-white.shadow-sm
+        .card-img
+          img(src=scenario.img, alt="preview")
+          h5.card-title= scenario.title
+        .card-body
+          p.card-text= scenario.description
+          .flex-grow-1
+          .card-links
+            each link in scenario.links
+              a(href=link.href, rel='noopener noreferrer', target='_blank')= link.title
+
+  .container.my-4.text-center
+    a(href='https://github.com/Dagothig/nifty-fifty') Source
