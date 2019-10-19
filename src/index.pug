@@ -14,6 +14,7 @@ block content
         up to date:
       .progress
         .progress-bar(
+          role='progressbar'
           aria-valuenow=scenarios.length
           aria-valuemax=50
           style="width:" + Math.floor(scenarios.length * (100 / 50)) + "%")
@@ -21,8 +22,8 @@ block content
   .mx-sm-4.row-grid
     each scenario in scenarios.slice().reverse()
       .card.bg-white.shadow-sm
-        .card-img.bg-secondary
-          img(src=scenario.img, alt="preview")
+        .card-img.bg-dark
+          img(src=scenario.img)
           h5.card-title
             = scenario.title
         .card-body
