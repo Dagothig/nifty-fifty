@@ -1,17 +1,22 @@
 mixin space()
   | !{' '}
 doctype html
-html(lang="en")
+html#top(lang="en")
     head
         title the_ocalhoun's Nifty Fifty
         meta(http-equiv="Content-Type" content="text/html;charset=UTF-8")
         meta(name="charset" content="UTF-8")
         meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
 
-        link(rel="stylesheet" href="/style.css")
+        link(rel="prerender" as="style" href="/style.css")
+
+        link(rel="stylesheet" href="style.css")
         link(rel="icon" href="/favicon.ico")
 
         block head
 
     body.bg-light
         block content
+        .container.my-4.text-center
+            a.mx-1(href='https://github.com/Dagothig/nifty-fifty') Source
+            a.mx-1(href="#top") Back to top

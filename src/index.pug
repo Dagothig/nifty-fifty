@@ -18,12 +18,15 @@ block content
           aria-valuenow=scenarios.length
           aria-valuemax=50
           style="width:" + Math.floor(scenarios.length * (100 / 50)) + "%")
-            = scenarios.length + " of 50 done"
+          each scenario, i in scenarios
+            a(href='#scenario-' + (i + 1))
+              img(rel="prerender" src=scenario.img)
+              .text= scenario.title
   .mx-sm-4.row-grid
-    each scenario in scenarios.slice().reverse()
-      .card.bg-white.shadow-sm
+    each scenario, i in scenarios.slice().reverse()
+      .card.bg-white.shadow-sm(id='scenario-' + (scenarios.length - i))
         .card-img.bg-dark
-          img(src=scenario.img)
+          img(rel="prerender" src=scenario.img)
           h5.card-title
             = scenario.title
         .card-body
@@ -32,8 +35,5 @@ block content
           .flex-grow-1
           .card-links
             each link in scenario.links
-              a(href=link.href, rel='noopener noreferrer', target='_blank')
+              a(href=link.href rel='noopener noreferrer' target='_blank')
                 = link.title
-
-  .container.my-4.text-center
-    a(href='https://github.com/Dagothig/nifty-fifty') Source

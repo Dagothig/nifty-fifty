@@ -23,7 +23,7 @@ public/img-thumbs/%.jpg: public/img/%.*
 	convert -quality 70 -thumbnail x400 $< $@
 
 serve: build
-	@(node node_modules/pug-cli -O src/data.js -w src/ -b src/ -o public/ &\
+	@(node node_modules/pug-cli -w -O src/data.js src/ -b src/ -o public/ &\
 	  node_modules/node-sass/bin/node-sass -w src/ -o public/ &\
 	  node server)
 
