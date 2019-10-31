@@ -19,8 +19,8 @@ thumbs = $(subst img,img-thumbs, $(images:.png=.jpg))
 img: $(thumbs)
 
 public/img-thumbs/%.jpg: public/img/%.*
-	mkdir -p public/img-thumbs
-	convert -quality 70 -thumbnail x400 $< $@
+	@mkdir -p public/img-thumbs
+	convert -quality 70 -scale 700\> $< $@
 
 serve: build
 	@(node node_modules/pug-cli -w -O src/data.js src/ -b src/ -o public/ &\
