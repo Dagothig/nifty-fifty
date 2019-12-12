@@ -214,6 +214,6 @@ module.exports.scenarios = [
       href: 'https://www.reddit.com/r/rct/comments/e8l417/nifty_fifty_18_fast_food_factory/'
     }],
     img: '/img-thumbs/7EssZgg.jpg',
-    description: "You've convinced Fast Foods Inc. that building a theme park could increase food sales. They've given you and old factory facility to prove it. But they know all your little tricks -- no merchandise sales, only food and drink!"
+    description: "You've convinced Fast Foods Inc. that building a theme park could increase food sales. They've given you an old factory facility to prove it. But they know all your little tricks -- no merchandise sales, only food and drink!"
   },
 ];
