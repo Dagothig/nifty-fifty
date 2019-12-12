@@ -204,4 +204,16 @@ module.exports.scenarios = [
     img: '/img-thumbs/fWZEQWz.jpg',
     description: 'When the Red Sea was parted, you were SUPPOSED to lead your people through it to the promised land. Not build a theme park on the bottom of the sea!'
   },
+  {
+    title: '#18: Fast Foods Factory',
+    links: [{
+      title: 'Download',
+      href: 'https://drive.google.com/open?id=1yRxwJ8reO0IiNKneWjc98Rqn3in9x2xc'
+    }, {
+      title: 'Post',
+      href: 'https://www.reddit.com/r/rct/comments/e8l417/nifty_fifty_18_fast_food_factory/'
+    }],
+    img: '/img-thumbs/7EssZgg.jpg',
+    description: "You've convinced Fast Foods Inc. that building a theme park could increase food sales. They've given you and old factory facility to prove it. But they know all your little tricks -- no merchandise sales, only food and drink!"
+  },
 ];
