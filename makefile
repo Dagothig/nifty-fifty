@@ -35,5 +35,14 @@ clean:
 	@echo "Removing thumb images from public"
 	@rm -f public/img-thumbs/*
 
+sanity:
+	@# TODO this should use ls
+	@echo "Checking mirror links"
+	@node -e " \
+		require('./src/data').scenarios \
+		.map(s => s.links.find(l => l.title === 'Mirror').href) \
+		.filter(h => !require('fs').existsSync('public' + h)) \
+		.forEach(h => console.log('Missing data file', h))"
+
 deploy: build
 	rsync -az public/ $(DEPLOY) --progress --delete

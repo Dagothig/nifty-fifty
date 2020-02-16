@@ -26,7 +26,8 @@ block content
     each scenario, i in scenarios.slice().reverse()
       .card.bg-white.shadow-sm(id='scenario-' + (scenarios.length - i))
         .card-img.bg-dark
-          img(rel="prerender" src=scenario.img)
+          a(href=scenario.gallery target='_blank' rel='noopener')
+            img(rel="prerender" src=scenario.img)
           h5.card-title
             = scenario.title
         .card-body
