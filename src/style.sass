@@ -50,6 +50,9 @@ $box-shadow-lg: 0 1rem 3rem rgba($black, .350)
     top: 0
     bottom: 0
 
+html
+    scroll-behavior: smooth
+
 a
     color: darken($primary, 5%)
 
@@ -92,6 +95,7 @@ img
         bottom: 0
         margin: 0
         padding: $card-spacer-y $card-spacer-x
+        pointer-events: none
 
 .card-links
     text-align: right
@@ -120,6 +124,7 @@ $progress-height: $spacer * 1.5
         width: 0
         flex-grow: 1
         border-right: solid 1px $light
+        transition: 0.25s
     a:not(:hover)
         .text
             display: none
