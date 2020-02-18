@@ -304,4 +304,20 @@ module.exports.scenarios = [
     gallery: 'https://imgur.com/a/upJdLFE#lHDkv1a',
     description: "What? You wanted a bunch of handouts in the beginning? For free? That's now how any of this works, bud. You get a motion simulator, a tiny patch of desert, and that's it!"
   },
+  {
+    title: '#20: Wheel of Time',
+    links: [{
+      title: 'Download',
+      href: 'https://drive.google.com/open?id=1tPu23lVnmVvPYa7uE_Y10bZ2HbCHh1Mj'
+    }, {
+      title: 'Mirror',
+      href: '/data/Wheel of Time.sc6'
+    }, {
+      title: 'Post',
+      href: 'https://www.reddit.com/r/rct/comments/f5m699/nifty_fifty_20_wheel_of_time/'
+    }],
+    img: '/img-thumbs/R9HJ34d.jpg',
+    gallery: 'https://imgur.com/a/Ch1ktd9',
+    description: "Winter, Spring, Summer, and Fall. The four seasons continue in their endless cycle. Your mission is to build 10 roller coasters on the Wheel of Time ... the only problem is that you don't have any roller coasters researched yet."
+  },
 ];
