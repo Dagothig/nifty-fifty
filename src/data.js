@@ -320,4 +320,20 @@ module.exports.scenarios = [
     gallery: 'https://imgur.com/a/Ch1ktd9',
     description: "Winter, Spring, Summer, and Fall. The four seasons continue in their endless cycle. Your mission is to build 10 roller coasters on the Wheel of Time ... the only problem is that you don't have any roller coasters researched yet."
   },
+  {
+    title: '#21: Winsome Falls',
+    links: [{
+      title: 'Download',
+      href: 'https://drive.google.com/file/d/1lqn43wmdPLvn4GousoDFH-k9M1_eHwjy/view?usp=sharing'
+    }, {
+      title: 'Mirror',
+      href: '/data/Winsome Falls.sc6'
+    }, {
+      title: 'Post',
+      href: 'https://www.reddit.com/r/rct/comments/iw6jh2/nifty_fifty_21_winsome_falls/'
+    }],
+    img: '/img-thumbs/sk7DboL.jpg',
+    gallery: 'https://imgur.com/a/pW6zJLJ#01NlVXQ',
+    description: "You'll need more than just this idyllic dreamscape to draw enough guests into your park!"
+  }
 ];
