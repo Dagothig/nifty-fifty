@@ -1,7 +1,7 @@
 {
   "name": "nifty-fifty",
   "version": "1.0.0",
-  "description": "A gallery of the published scenarios of the_ocalhoun's Nifty Fifty.",
+  "description": "A gallery of the published scenarios of ocalhoun's Nifty Fifty.",
   "main": "server.js",
   "author": "dagothig",
   "license": "MIT",
