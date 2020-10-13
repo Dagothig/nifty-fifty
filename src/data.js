@@ -335,5 +335,21 @@ module.exports.scenarios = [
     img: '/img-thumbs/sk7DboL.jpg',
     gallery: 'https://imgur.com/a/pW6zJLJ#01NlVXQ',
     description: "You'll need more than just this idyllic dreamscape to draw enough guests into your park!"
+  },
+  {
+    title: '#22: Rattlesnake Ridge',
+    links: [{
+      title: 'Download',
+      href: 'https://drive.google.com/file/d/14VC4iVDAZniBZ4aeC_Xnvknf4m5DS3uz/view?usp=sharing'
+    }, {
+      title: 'Mirror',
+      href: '/data/Rattlesnake Ridge.sc6'
+    }, {
+      title: 'Post',
+      href: 'https://www.reddit.com/r/rct/comments/ja5925/nifty_fifty_22_rattlesnake_ridge/'
+    }],
+    img: '/img-thumbs/Epqd8Xx.jpg',
+    gallery: 'https://imgur.com/a/7z9MMuw#TYxsp1g',
+    description: "The volcanic ridge that winds its way through this desert will force you to use creative solutions ... or perhaps even build on top of the ridge."
   }
 ];
