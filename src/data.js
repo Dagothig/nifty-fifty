@@ -351,5 +351,21 @@ module.exports.scenarios = [
     img: '/img-thumbs/Epqd8Xx.jpg',
     gallery: 'https://imgur.com/a/7z9MMuw#TYxsp1g',
     description: "The volcanic ridge that winds its way through this desert will force you to use creative solutions ... or perhaps even build on top of the ridge."
+  },
+  {
+    title: '#23: Quanahog Winter Games',
+    links: [{
+      title: 'Download',
+      href: 'https://drive.google.com/file/d/1O0ZAqzZWmdfbkR1j7XfWR-9u-MsBLRyq/view?usp=sharing'
+    }, {
+      title: 'Mirror',
+      href: '/data/Quanahog Winter Games.sc6'
+    }, {
+      title: 'Post',
+      href: 'https://www.reddit.com/r/rct/comments/jw4mc2/nifty_fifty_23_quanahog_winter_games/'
+    }],
+    img: '/img-thumbs/Wn7voyP.jpg',
+    gallery: 'https://imgur.com/a/FDSHwQd#IVunzPt',
+    description: "The Winter Olympics have come and gone from the quiet town of Quanahog. And now it's your job to do ... something with the leftover facilities. Oh, and it would be nice if you could repay the massive debt that hosting the games has left the town with!"
   }
 ];
