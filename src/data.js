@@ -367,5 +367,21 @@ module.exports.scenarios = [
     img: '/img-thumbs/Wn7voyP.jpg',
     gallery: 'https://imgur.com/a/FDSHwQd#IVunzPt',
     description: "The Winter Olympics have come and gone from the quiet town of Quanahog. And now it's your job to do ... something with the leftover facilities. Oh, and it would be nice if you could repay the massive debt that hosting the games has left the town with!"
+  },
+  {
+    title: '#24: Dos Mesas',
+    links: [{
+      title: 'Download',
+      href: 'https://drive.google.com/file/d/11ORmQn8noOfT84qOzHFT76io71teTZxB/view?usp=sharing'
+    }, {
+      title: 'Mirror',
+      href: '/data/Dos Mesas.sc6'
+    }, {
+      title: 'Post',
+      href: 'https://www.reddit.com/r/rct/comments/kc3b54/nifty_fifty_24_dos_mesas/'
+    }],
+    img: '/img-thumbs/VWOOjyu.jpg',
+    gallery: 'https://imgur.com/a/sAhTwFv#5LLajWJ',
+    description: "No you can't build an amusement park in the middle of the Dos Mesas Natural Area! It's protected habitat for the endangered black cactus spider! If you donated $50,000 to preservation efforts, though, maybe you could build on top of the mesas..."
   }
 ];
