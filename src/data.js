@@ -383,5 +383,53 @@ module.exports.scenarios = [
     img: '/img-thumbs/VWOOjyu.jpg',
     gallery: 'https://imgur.com/a/sAhTwFv#5LLajWJ',
     description: "No you can't build an amusement park in the middle of the Dos Mesas Natural Area! It's protected habitat for the endangered black cactus spider! If you donated $50,000 to preservation efforts, though, maybe you could build on top of the mesas..."
+  },
+  {
+    title: '#25: Purgatoria',
+    links: [{
+      title: 'Download',
+      href: 'https://drive.google.com/file/d/1dFWMqEIZMVD3g7s5bQvDR73bUzC88xpp/view?usp=sharing'
+    }, {
+      title: 'Mirror',
+      href: '/data/Purgatoria.sc6'
+    }, {
+      title: 'Post',
+      href: 'https://www.reddit.com/r/rct/comments/oictrw/nifty_fifty_25_purgatoria/'
+    }],
+    img: 'img-thumbs/3qQuWDK.jpg',
+    gallery: 'https://imgur.com/a/byaS0B2',
+    description: "To atone for your tycoon sins, you must complete 5 of the least desirable roller coasters imaginable, and you must do it well."
+  },
+  {
+    title: 'Nifty Fifty #26: Tumbledown Faire',
+    links: [{
+      title: 'Download',
+      href: 'https://drive.google.com/file/d/1FnEhOmUPxvFBtNdqT6hLu-RI7GX-Wp0h/view?usp=sharing'
+    }, {
+      title: 'Mirror',
+      href: '/data/Tumbledown Faire.sc6'
+    }, {
+      title: 'Post',
+      href: 'https://www.reddit.com/r/rct/comments/olw35x/nifty_fifty_26_tumbledown_faire/'
+    }],
+    img: 'img-thumbs/DVvSSHv.jpg',
+    gallery: 'https://imgur.com/a/Kjn88iV',
+    description: "The previous owner kept this park unchanged for over half a century, leaving it seriously outdated. Now that you're in charge, it's time to innovate and renovate! But the historical society forbids you from damaging the old rides."
+  },
+  {
+    title: 'Nifty Fifty #27: Transit Towns',
+    links: [{
+      title: 'Download',
+      href: 'https://drive.google.com/file/d/1vAMy3wBalVAvJzFQnnMEn939DeHsYhOr/view?usp=sharing'
+    }, {
+      title: 'Mirror',
+      href: '/data/NF27 Transit Towns.sc6'
+    }, {
+      title: 'Post',
+      href: 'https://www.reddit.com/r/rct/comments/our9mp/nifty_fifty_27_transit_towns/'
+    }],
+    img: 'img-thumbs/hmWm8a0.jpg',
+    gallery: 'https://imgur.com/a/w2kTGrT#sp0Ow6l',
+    description: "Roller coasters? Theme parks? What are you talking about? These four towns need a transit system between them and you're going to build it."
   }
 ];
